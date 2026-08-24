@@ -189,9 +189,18 @@ Serão fornecidos alguns casos de teste contendo os arquivos de entrada e as res
 
 Os casos de teste poderão ser utilizados para verificar a implementação dos algoritmos.
 
-Recomenda-se também a criação de casos de teste adicionais durante o desenvolvimento.
+Além dos casos fornecidos, cada aluno deverá criar casos de testes adicionais para todos os algoritmos implementados. Esses casos devem servir para verificar a correção da implementação e permitir uma análise do comportamento de casa algoritmo de escalonamento.
 
-### Teste 1 — FCFS e o “convoy effect”
+Os casos de teste adicionais devem incluir cenários relevantes e representativos, de forma a evidencia, quando aplicável:
+- situações que o algoritmo apresenta bom desempenho;
+- situações em que o algoritmo apresenta desempenho desfavorável;
+- vantagens e desvantagens observadas em relação aos demais algoritmos;
+- influência do quantum nos algoritmos que utilizam Round-Robin;
+- cenários que evidenciem características conhecidas dos algoritmos, como convoy effect, maior tempo de espera, favorecimento de processos curtos, impacto das prioridades e possíveis situações de espera prolongada.
+
+Não é necessário que cada caso de teste demonstre todos esses aspectos. O conjunto de testes deve, porém, permitir uma análise adequada das principais características de cada algoritmo.
+
+### Teste 1 — FCFS
 Entrada: `testes/inputs/fcfs_01.csv`
 
 Comando para Execução: `python scheduler.py testes/inputs/fcfs_01.csv fcfs`
@@ -230,9 +239,17 @@ Saída esperada: `testes/expected/rr_01.out`
 ## Entrega
 A entrega deve conter:
 - [ ] Código fonte (sem execuáveis)
-- [ ] Intruções de compilação
 - [ ] Conjunto de testes, com entradas e saídas esperadas
+    - [ ] Cenários que permitam observar características relevantes, desvantagens e limitações dos algoritmos
+    - [ ] Casos de teste adicionais para todos os algoritmos
+
 - [ ] Relatório breve (em PDF) contendo:
     - [ ] Visão geral do código e fluxo de execução do programa
     - [ ] Descrição da abordagem de implementação adotada, assim como detalhes das funções implementadas
     - [ ] Desafio encontrados
+    - [ ] Explicação dos casos de teste adicionais elaborados
+    - [ ] Análise do comportamento de cada algoritmo nos casos de teste
+    - [ ] Discussão sobre as principais vantagens e desvantagens de cada algoritmo de escalonamento
+    - [ ] Identificação e explicação de cenários interessantes observados durante os testes
+    Comparação entre os algoritmos, destacando situações em que determinados algoritmos são mais ou menos adequados
+    - [ ] Para os algoritmos que utilizam Round-Robin, análise do impacto da escolha do quantum no comportamento do escalonamento

@@ -1,5 +1,5 @@
 # Simulador de Escalonamento de Processos
-**Prazo de entrega:** 21/09/2026
+**Prazo de entrega:** 16/09/2026
 
 **Entrega via Classroom**
 

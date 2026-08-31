@@ -189,7 +189,7 @@ Serão fornecidos alguns casos de teste contendo os arquivos de entrada e as res
 
 Os casos de teste poderão ser utilizados para verificar a implementação dos algoritmos.
 
-Além dos casos fornecidos, cada aluno deverá criar casos de testes adicionais para todos os algoritmos implementados. Esses casos devem servir para verificar a correção da implementação e permitir uma análise do comportamento de casa algoritmo de escalonamento.
+Além dos casos fornecidos, cada aluno deverá criar casos de testes adicionais para todos os algoritmos implementados. Esses casos devem servir para verificar a correção da implementação e permitir uma análise do comportamento de cada algoritmo de escalonamento.
 
 Os casos de teste adicionais devem incluir cenários relevantes e representativos, de forma a evidencia, quando aplicável:
 - situações que o algoritmo apresenta bom desempenho;

@@ -189,9 +189,9 @@ Serão fornecidos alguns casos de teste contendo os arquivos de entrada e as res
 
 Os casos de teste poderão ser utilizados para verificar a implementação dos algoritmos.
 
-Além dos casos fornecidos, cada aluno deverá criar casos de testes adicionais para todos os algoritmos implementados. Esses casos devem servir para verificar a correção da implementação e permitir uma análise do comportamento de cada algoritmo de escalonamento.
+Além dos casos fornecidos, cada aluno deverá criar casos de teste adicionais para todos os algoritmos implementados. Esses casos devem servir para verificar a correção da implementação e permitir uma análise do comportamento de cada algoritmo de escalonamento.
 
-Os casos de teste adicionais devem incluir cenários relevantes e representativos, de forma a evidencia, quando aplicável:
+Os casos de teste adicionais devem incluir cenários relevantes e representativos, de forma a evidenciar, quando aplicável:
 - situações que o algoritmo apresenta bom desempenho;
 - situações em que o algoritmo apresenta desempenho desfavorável;
 - vantagens e desvantagens observadas em relação aos demais algoritmos;
@@ -203,7 +203,7 @@ Não é necessário que cada caso de teste demonstre todos esses aspectos. O con
 ### Teste 1 — FCFS
 Entrada: `testes/inputs/fcfs_01.csv`
 
-Comando para Execução: `python scheduler.py testes/inputs/fcfs_01.csv fcfs`
+Comando para execução: `python scheduler.py testes/inputs/fcfs_01.csv fcfs`
 
 Saída esperada: `testes/expected/fcfs_01.out`
 
@@ -223,9 +223,9 @@ Saída esperada: `testes/expected/rr_01.out`
 
 
 ## Regras
-- Esse trabalho é individual
+- Esse trabalho é individual.
 - O código entregue deverá implementar todos os algoritmos solicitados e preservar a interface definida pelo código inicial fornecido.
-- Todos os arquivos devem ser reunidos em um únivo `.zip`
+- Todos os arquivos devem ser reunidos em um único `.zip`
 - O nome do arquivo zip deve seguir o padrão:
     - `tp1_[nomedoaluno].zip`
     > **Atenção:** Substitua `[nomedoaluno]` pelo seu nome completo. **É obrigatório seguir esta estrutura de nome.**
@@ -238,7 +238,7 @@ Saída esperada: `testes/expected/rr_01.out`
 
 ## Entrega
 A entrega deve conter:
-- [ ] Código fonte (sem execuáveis)
+- [ ] Código fonte
 - [ ] Conjunto de testes, com entradas e saídas esperadas
     - [ ] Cenários que permitam observar características relevantes, desvantagens e limitações dos algoritmos
     - [ ] Casos de teste adicionais para todos os algoritmos
@@ -246,10 +246,10 @@ A entrega deve conter:
 - [ ] Relatório breve (em PDF) contendo:
     - [ ] Visão geral do código e fluxo de execução do programa
     - [ ] Descrição da abordagem de implementação adotada, assim como detalhes das funções implementadas
-    - [ ] Desafio encontrados
+    - [ ] Desafios encontrados
     - [ ] Explicação dos casos de teste adicionais elaborados
     - [ ] Análise do comportamento de cada algoritmo nos casos de teste
     - [ ] Discussão sobre as principais vantagens e desvantagens de cada algoritmo de escalonamento
     - [ ] Identificação e explicação de cenários interessantes observados durante os testes
-    Comparação entre os algoritmos, destacando situações em que determinados algoritmos são mais ou menos adequados
+    - [ ] Comparação entre os algoritmos, destacando situações em que determinados algoritmos são mais ou menos adequados
     - [ ] Para os algoritmos que utilizam Round-Robin, análise do impacto da escolha do quantum no comportamento do escalonamento
